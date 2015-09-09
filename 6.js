@@ -33,4 +33,14 @@ nos.reduce(function(item, result){
 },0);
 
 
+// Useful methods for object String
+
+var myStr = "NCSU James Hunt";
+
+myStr.charAt(3);
+
+myStr.indexOf("James");
+
+
+
 
