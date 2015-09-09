@@ -1,7 +1,9 @@
-//Functions as Class
+// Functions as Class
+// Functions are objects.
+// Objects---Functions, Arrays, Objects
 
-function Person() {
-	this.name = "Yatish"
+function Person(name) {
+	this.name = name
 
 	this.fullName = function(){
 		console.log("Full name");
@@ -14,8 +16,7 @@ Person.prototype.foo = function(){
 	console.log("Everyone has this function");
 }
 
-
-person = new Person();
+person = new Person("Yatish");
 
 console.log(person.name);
 
